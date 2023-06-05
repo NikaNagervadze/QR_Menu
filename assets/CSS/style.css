@@ -20,7 +20,34 @@ body{
     display: flex;
     height: 130px;
     width: 130px;
-}                                                       
+}       
+
+.language{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 8px;
+    text-decoration: none;
+
+    font-family: bpg;
+    font-size: 20px;
+    color: #fff;
+
+    margin: 0;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-header>h1{
+
+    font-family: bpg;
+    font-size: 40px;
+    color: #819E8B;
+
+    margin: 0;
+}
 
 .menuitems{
     transition: all 0.3s;
@@ -36,6 +63,22 @@ body{
     box-shadow: rgb(0, 0, 0) 0px 0px 15px -5px;
 }
 
+.itemdiscr>p{
+    font-family: bpg;
+    font-size: 18px;
+    color: #fff;
+
+    margin: 0;
+}
+
+.price>p{
+    font-family: bpg;
+    font-size: 18px;
+    color: #fff;
+
+    margin: 0;
+}
+
 .text{
     position: absolute;
     top: 50%;
@@ -44,7 +87,7 @@ body{
 }
 
 .text>h3{   
-    font-family: geobold;
+    font-family: bpg;
     color: #E4EAE5;
     font-size: 2rem;
  
