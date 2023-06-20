@@ -65,7 +65,7 @@ body{
 
 .itemdiscr>p{
     font-family: bpg;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
 
     margin: 0;
@@ -89,12 +89,11 @@ body{
 .text>h3{   
     font-family: bpg;
     color: #E4EAE5;
-    font-size: 2rem;
- 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -75%);
+    font-size: 1.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img>img{
